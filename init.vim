@@ -216,6 +216,7 @@ local cmp = require'cmp'
   local servers = {
 	'clangd',
 	'jdtls',
+	'eslint',
 	'rust_analyzer',
 	'pyright',
 	'lua_ls',
