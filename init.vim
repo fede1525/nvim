@@ -22,7 +22,7 @@ let mapleader = ";"
 call plug#begin()
 
 Plug 'nvim-lua/plenary.nvim' " Plenary
-Plug 'nvim-treesitter/nvim-treesitter' " Tree sitter
+Plug 'nvim-treesitter/nvim-treesitter' , {'do': ':TSUpdate'} " Tree sitter
 Plug 'preservim/nerdtree' " Nerd Tree
 
 " Telescope and find functionalities
@@ -45,10 +45,8 @@ Plug 'hrsh7th/cmp-vsnip'
 Plug 'hrsh7th/vim-vsnip'
 Plug 'VonHeikemen/lsp-zero.nvim', {'branch': 'v3.x'}
 Plug 'jose-elias-alvarez/null-ls.nvim'
-Plug 'simrat39/rust-tools.nvim'
+Plug 'https://github.com/mrcjkb/rustaceanvim'
 
-Plug 'ixru/nvim-markdown' " Markdown 
-Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && npx --yes yarn install' } " Markdown preview
 
 " Styling
 Plug 'vim-airline/vim-airline' " Vim-airline
@@ -168,7 +166,7 @@ local cmp = require'cmp'
       end,
     },
     window = {
-     -- completion = cmp.config.window.bordered(),
+       completion = cmp.config.window.bordered(),
        documentation = cmp.config.window.bordered(),
     },
     mapping = cmp.mapping.preset.insert({
