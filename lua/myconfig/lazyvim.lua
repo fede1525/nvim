@@ -32,5 +32,6 @@ require("lazy").setup({
 	"rafamadriz/friendly-snippets",
 	"williamboman/mason.nvim",
 	"williamboman/mason-lspconfig.nvim",
-
+    'nvim-lualine/lualine.nvim',
+    'nvim-tree/nvim-web-devicons'
 }, opts)
