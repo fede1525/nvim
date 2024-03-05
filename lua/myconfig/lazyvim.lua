@@ -11,12 +11,16 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 require("lazy").setup({
-    {"savq/melange-nvim", lazy = false,
-    priority = 1000,
-    config = function()
-      vim.cmd([[colorscheme melange]])
-    end,
+     { "savq/melange-nvim",
+        lazy = false,
+        priority = 1000,
+        config = function()
+            vim.cmd("colorscheme melange")
+        end,
     },
+    "xero/miasma.nvim",
+    --"savq/melange-nvim",
+    "loctvl842/monokai-pro.nvim",
 	"nvim-telescope/telescope.nvim",
 	"nvim-treesitter/nvim-treesitter",
 	"tpope/vim-fugitive",
