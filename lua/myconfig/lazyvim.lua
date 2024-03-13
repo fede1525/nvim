@@ -37,5 +37,6 @@ require("lazy").setup({
 	"williamboman/mason.nvim",
 	"williamboman/mason-lspconfig.nvim",
     'nvim-lualine/lualine.nvim',
-    'nvim-tree/nvim-web-devicons'
+    'nvim-tree/nvim-web-devicons',
+    {'akinsho/toggleterm.nvim', version = "*", config = true}
 }, opts)
