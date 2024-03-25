@@ -22,6 +22,7 @@ require("lazy").setup({
     --"savq/melange-nvim",
     "loctvl842/monokai-pro.nvim",
 	"nvim-telescope/telescope.nvim",
+    "nvim-lua/plenary.nvim",
 	"nvim-treesitter/nvim-treesitter",
 	"tpope/vim-fugitive",
 	"VonHeikemen/lsp-zero.nvim",
