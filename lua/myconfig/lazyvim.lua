@@ -39,5 +39,7 @@ require("lazy").setup({
 	"williamboman/mason-lspconfig.nvim",
     'nvim-lualine/lualine.nvim',
     'nvim-tree/nvim-web-devicons',
+    'OmniSharp/omnisharp-vim',
+    'nickspoons/vim-sharpenup',
     {'akinsho/toggleterm.nvim', version = "*", config = true}
 }, opts)
