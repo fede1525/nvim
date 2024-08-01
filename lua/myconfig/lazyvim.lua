@@ -18,9 +18,7 @@ require("lazy").setup({
             vim.cmd("colorscheme melange")
         end,
     },
-    "xero/miasma.nvim",
     --"savq/melange-nvim",
-    "loctvl842/monokai-pro.nvim",
 	"nvim-telescope/telescope.nvim",
     "nvim-lua/plenary.nvim",
 	"nvim-treesitter/nvim-treesitter",
@@ -39,7 +37,6 @@ require("lazy").setup({
 	"williamboman/mason-lspconfig.nvim",
     'nvim-lualine/lualine.nvim',
     'nvim-tree/nvim-web-devicons',
-    'OmniSharp/omnisharp-vim',
     'nickspoons/vim-sharpenup',
     {'akinsho/toggleterm.nvim', version = "*", config = true}
 }, opts)
