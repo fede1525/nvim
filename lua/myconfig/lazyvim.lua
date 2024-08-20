@@ -18,7 +18,6 @@ require("lazy").setup({
             vim.cmd("colorscheme melange")
         end,
     },
-    --"savq/melange-nvim",
 	"nvim-telescope/telescope.nvim",
     "nvim-lua/plenary.nvim",
 	"nvim-treesitter/nvim-treesitter",
