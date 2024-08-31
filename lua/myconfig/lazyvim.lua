@@ -11,14 +11,7 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 require("lazy").setup({
-     { "savq/melange-nvim",
-        lazy = false,
-        priority = 1000,
-        config = function()
-            vim.cmd("colorscheme melange")
-        end,
-    },
-	"nvim-telescope/telescope.nvim",
+    "nvim-telescope/telescope.nvim",
     "nvim-lua/plenary.nvim",
 	"nvim-treesitter/nvim-treesitter",
 	"tpope/vim-fugitive",
@@ -34,8 +27,8 @@ require("lazy").setup({
 	"rafamadriz/friendly-snippets",
 	"williamboman/mason.nvim",
 	"williamboman/mason-lspconfig.nvim",
-    'nvim-lualine/lualine.nvim',
-    'nvim-tree/nvim-web-devicons',
-    'nickspoons/vim-sharpenup',
-    {'akinsho/toggleterm.nvim', version = "*", config = true}
+    "nvim-lualine/lualine.nvim",
+    "nvim-tree/nvim-web-devicons",
+    "nickspoons/vim-sharpenup",
+    {"akinsho/toggleterm.nvim", version = "*", config = true},
 }, opts)

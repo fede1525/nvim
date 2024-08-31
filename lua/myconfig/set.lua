@@ -1,6 +1,8 @@
 vim.opt.nu = true
 vim.opt.relativenumber = true
 
+vim.cmd 'colorscheme habamax'
+
 vim.opt.tabstop = 4
 vim.opt.softtabstop = 4
 vim.opt.shiftwidth = 4
@@ -8,6 +10,7 @@ vim.opt.expandtab = true
 vim.opt.smartindent = true
 
 vim.opt.tabline = "%!v:lua.my_tabline()"
+vim.opt.showmode = false
 
 vim.opt.wrap = false
 
