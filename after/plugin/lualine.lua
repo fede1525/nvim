@@ -40,7 +40,7 @@ require('lualine').setup {
     lualine_a = {'mode'},
     lualine_b = {'branch', {'diff', source = diff_source}, 'diagnostics'},
     lualine_c = {'filename'},
-    lualine_x = {'encoding', 'fileformat', 'filetype'},
+    lualine_x = {'filetype'},--{'encoding', 'fileformat', 'filetype'},
     lualine_y = {'progress'},
     lualine_z = {{ place, padding = { left = 1, right = 1 } }}
   },
