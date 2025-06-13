@@ -6,4 +6,3 @@
 - Telescope
 - Lualine
 - Vim-fugitive
-- Melange colorscheme 
